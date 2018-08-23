@@ -1,0 +1,384 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Volim ljude koji su neposredni i konkretni.",
+            "type": 4
+        },
+        {
+            "id": 2,
+            "question": "Ponosim se što sam orprezan.",
+            "type": 2
+        },
+        {
+            "id": 3,
+            "question": "Moglo bi se reći da sam zadovoljan, lojalan, predusretljiv i blag.",
+            "type": 1
+        },
+        {
+            "id": 4,
+            "question": "Ponekad mogu biti subjektivan u opisivanju stvari.",
+            "type": 3
+        },
+        {
+            "id": 5,
+            "question": "Kad dam drugim ljudima da nešto urade, strpljiv sam.",
+            "type": 1
+        },
+        {
+            "id": 6,
+            "question": "Moglo bi se reći da sam popularan, društven, pun poverenja i razumevanja.",
+            "type": 3
+        },
+        {
+            "id": 7,
+            "question": "Ponekad sporo iznosim svoje mišljenje.",
+            "type": 1
+        },
+        {
+            "id": 8,
+            "question": "Nije me briga što sam nestrpljiv.",
+            "type": 4
+        },
+        {
+            "id": 9,
+            "question": "Moglo bi se reći da sam srdačan, ljubazan, druželjubiv i veseo.",
+            "type": 3
+        },
+        {
+            "id": 10,
+            "question": "Volim ljude koji su druželjubivi.",
+            "type": 3
+        },
+        {
+            "id": 11,
+            "question": "Ljudi misle da umem da saslušam druge.",
+            "type": 1
+        },
+        {
+            "id": 12,
+            "question": "Moglo bi se reći da sam uviđavan, iskren, simpatičan i velikodušan.",
+            "type": 1
+        },
+        {
+            "id": 13,
+            "question": "Ljudi misle da sam pouzdan.",
+            "type": 1
+        },
+        {
+            "id": 14,
+            "question": "Uglavnom imam potrebu da budem sa ljudima.",
+            "type": 3
+        },
+        {
+            "id": 15,
+            "question": "Kad mi se kaže da nešto uradim, to uradim najbolje.",
+            "type": 1
+        },
+        {
+            "id": 16,
+            "question": "Jedan od mojih najvećih strahova je da će me neko iskoristiti.",
+            "type": 4
+        },
+        {
+            "id": 17,
+            "question": "Ljudi misle da dobro umem da govorim.",
+            "type": 3
+        },
+        {
+            "id": 18,
+            "question": "Moglo bi se reći da sam logičan, sistematičan, objektivan i disciplinovan.",
+            "type": 3
+        },
+        {
+            "id": 19,
+            "question": "Jedan od mojih najvećih strahova je da budem kritikovan zbog grešaka.",
+            "type": 2
+        },
+        {
+            "id": 20,
+            "question": "Ljudi misle da dajem dobre rezultate.",
+            "type": 4
+        },
+        {
+            "id": 21,
+            "question": "Moglo bi se reći da sam proračunat, zahtevan, tačan i precizan.",
+            "type": 2
+        },
+        {
+            "id": 22,
+            "question": "Jedan od mojih najvećih strahova je promena.",
+            "type": 1
+        },
+        {
+            "id": 23,
+            "question": "Dobro se osećam kada sam bezbrižan i samouveren.",
+            "type": 3
+        },
+        {
+            "id": 24,
+            "question": "Moglo bi se reći da sam oprezan, konformista, dosledan i privržen.",
+            "type": 2
+        },
+        {
+            "id": 25,
+            "question": "Kad sam pod pritiskom, mislim da mi pomaže pozitivno razmišljanje.",
+            "type": 3
+        },
+        {
+            "id": 26,
+            "question": "Najbolje radim s drugim ljudima.",
+            "type": 3
+        },
+        {
+            "id": 27,
+            "question": "Život posmatram kao proces konkurencije.",
+            "type": 4
+        },
+        {
+            "id": 28,
+            "question": "Jedan od mojih najvećih strahova je da povredim osećanja ljudi.",
+            "type": 3
+        },
+        {
+            "id": 29,
+            "question": "Dobro se osećam kad imam kontrolu.",
+            "type": 4
+        },
+        {
+            "id": 30,
+            "question": "Moglo bi se reći da sam smiren, posvećen, promišljen i organizovan.",
+            "type": 2
+        },
+        {
+            "id": 31,
+            "question": "Razmišljam pozitivno.",
+            "type": 3
+        },
+        {
+            "id": 32,
+            "question": "Dobro se osećam kad radim po planu.",
+            "type": 2
+        },
+        {
+            "id": 33,
+            "question": "Moglo bi se reći da sam otvoren, da se uzdam u sebe, da sam odvažan i neumoran.",
+            "type": 4
+        },
+        {
+            "id": 34,
+            "question": "Velikodušan sam.",
+            "type": 1
+        },
+        {
+            "id": 35,
+            "question": "Dobro se osećam kad slušam druge.",
+            "type": 1
+        },
+        {
+            "id": 36,
+            "question": "Moglo bi se reći da sam odlučan, tvrdoglav, uporan i energičan.",
+            "type": 4
+        },
+        {
+            "id": 37,
+            "question": "Moji prijatelji me ponekad optužuju da ih ne slušam.",
+            "type": 4
+        },
+        {
+            "id": 38,
+            "question": "Kad dam drugima da nešto urade, želim brzu akciju.",
+            "type": 4
+        },
+        {
+            "id": 39,
+            "question": "Moji prijatelji me ponekad optužuju da sam previše oprezan.",
+            "type": 1
+        },
+        {
+            "id": 40,
+            "question": "Kad dam drugima da nešto urade, želim da to bude kvalitetno.",
+            "type": 1
+        },
+        {
+            "id": 41,
+            "question": "Razmišljam sistematično.",
+            "type": 1
+        },
+        {
+            "id": 42,
+            "question": "Najbolje radim kad su stvari organizovane.",
+            "type": 1
+        },
+        {
+            "id": 43,
+            "question": "Moglo bi se reći da sam čvrst, odlučan, hrabar i samopouzdan.",
+            "type": 4
+        },
+        {
+            "id": 44,
+            "question": "Oslanjam se na svoje snage.",
+            "type": 4
+        },
+        {
+            "id": 45,
+            "question": "Najbolje radim u prijatnom okruženju.",
+            "type": 1
+        },
+        {
+            "id": 46,
+            "question": "Moglo bi se reći da sam revnostan, radoznao, neposredan i avanturista.",
+            "type": 4
+        },
+        {
+            "id": 47,
+            "question": "Ljudi misle da sam precizan oko činjenica i podataka.",
+            "type": 2
+        },
+        {
+            "id": 48,
+            "question": "Moji prijatelji me ponekad optužuju da odugovlačim.",
+            "type": 1
+        },
+        {
+            "id": 49,
+            "question": "Kad radim s drugima dajem sve od sebe.",
+            "type": 3
+        },
+        {
+            "id": 50,
+            "question": "Ljudi misle da sam entuzijasta.",
+            "type": 3
+        },
+        {
+            "id": 51,
+            "question": "Uglavnom treba da mi se da vremena da se prilagodim promeni.",
+            "type": 1
+        },
+        {
+            "id": 52,
+            "question": "Kad sledim pravila dajem sve od sebe.",
+            "type": 2
+        },
+        {
+            "id": 53,
+            "question": "Volim ljude koji su tačni.",
+            "type": 2
+        },
+        {
+            "id": 54,
+            "question": "Ljudi misle da sam perfekcionista.",
+            "type": 3
+        },
+        {
+            "id": 55,
+            "question": "Moglo bi se reći da sam voljan za rad, poslušan i uslužan.",
+            "type": 1
+        },
+        {
+            "id": 56,
+            "question": "Kad sam pod pritiskom mislim da je potreban logički pristup.",
+            "type": 2
+        },
+        {
+            "id": 57,
+            "question": "Uglavnom mi treba podsticaj.",
+            "type": 2
+        },
+        {
+            "id": 58,
+            "question": "Smatram da je život strpljenje i tolerancija.",
+            "type": 1
+        },
+        {
+            "id": 59,
+            "question": "Kad sam pod pritiskom ostajem smiren.",
+            "type": 1
+        },
+        {
+            "id": 60,
+            "question": "Najbolje radim u slobodnom okruženju.",
+            "type": 4
+        },
+        {
+            "id": 61,
+            "question": "Smatram da je život pomaganje drugima.",
+            "type": 3
+        },
+        {
+            "id": 62,
+            "question": "Ponekad mogu da se previše precizno tumačim stvari.",
+            "type": 2
+        },
+        {
+            "id": 63,
+            "question": "Kad dam drugima da nešto urade, pomažem im koliko god mogu.",
+            "type": 3
+        },
+        {
+            "id": 64,
+            "question": "Moglo bi se reći da sam optimističan, veseo, zabavan i pun entuzijazma.",
+            "type": 3
+        },
+        {
+            "id": 65,
+            "question": "Ljudi misle da sam neposredan i konkretan.",
+            "type": 4
+        },
+        {
+            "id": 66,
+            "question": "Moji prijatelji me ponekad optužuju da previše govorim.",
+            "type": 3
+        },
+        {
+            "id": 67,
+            "question": "Kad radim sam, dajem sve od sebe.",
+            "type": 4
+        },
+        {
+            "id": 68,
+            "question": "Ponekad mogu da budem previše direktan.",
+            "type": 4
+        },
+        {
+            "id": 69,
+            "question": "Uglavnom sam zadovoljan svojom životnom srećom.",
+            "type": 1
+        },
+        {
+            "id": 70,
+            "question": "Moglio bi se reći da sam izražajan, govorljiv, ubedljiv i da se uključujem u aktivnosti.",
+            "type": 3
+        },
+        {
+            "id": 71,
+            "question": "Kad sam pod pritiskom osećam izazov i to volim!",
+            "type": 4
+        },
+        {
+            "id": 72,
+            "question": "Uglavnom treba da mi se daju otvorena uputstva.",
+            "type": 4
+        },
+        {
+            "id": 73,
+            "question": "Život vidim kao postepen proces.",
+            "type": 2
+        },
+        {
+            "id": 74,
+            "question": "Volim ljude koji su lojalni.",
+            "type": 1
+        },
+        {
+            "id": 75,
+            "question": "Ponosim se što sam optimističan.",
+            "type": 3
+        },
+        {
+            "id": 76,
+            "question": "Moglo bi se reći da sam ljubazan, skroman, poslušan i nesebičan.",
+            "type": 1
+        }
+    ]
+}

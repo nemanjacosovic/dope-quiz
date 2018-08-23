@@ -1,0 +1,58 @@
+.dope {
+  width: 40%;
+  margin: 10% auto 0 auto;
+}
+.dope header {
+  padding-bottom: 15px;
+}
+.dope header h1 {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 28px;
+}
+.dope header h1 small {
+  display: block;
+  font-size: 60%;
+  min-width: 300px;
+}
+
+
+.dope main {
+  padding: 40px 40px 60px 40px;
+  background: white;
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px #999;
+}
+.dope main p {
+  margin: 0;
+  padding: 0;
+  height: 150px;
+  font-size: 32px;
+  text-align: center;
+  padding: 30px 0 60px 0;
+}
+.gridwrap {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.gridwrap button {
+  width: 80%;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.dope footer {
+  color: #666;
+  font-size: 12px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .dope{
+    width: 98%;
+    margin: 20px auto;
+  }
+}
