@@ -77,7 +77,21 @@ class App extends Component {
         } else if ( this.state.peacock > this.state.eagle ) {
           winner = 'paun'
         } else {
-          winner = 'orao'
+          if (this.state.pigeon === this.state.owl) {
+            winner = 'golub i sova'
+          } else if (this.state.pigeon === this.state.peacock) {
+            winner = 'golub i paun'
+          } else if (this.state.pigeon === this.state.eagle) {
+            winner = 'golub i orao'
+          } else if (this.state.owl === this.state.peacock) {
+            winner = 'sova i paun'
+          } else if (this.state.owl === this.state.eagle) {
+            winner = 'sova i orao'
+          } else if (this.state.peacock === this.state.eagle) {
+            winner = 'paun i orao'
+          } else {
+            winner = 'orao'
+          }
         }
 
         this.setState({ winnerIs: winner })
