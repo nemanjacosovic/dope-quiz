@@ -2,6 +2,7 @@
   "name": "dopequiz",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://auxburgo.com/dope",
   "dependencies": {
     "@material-ui/core": "^1.5.1",
     "react": "^16.4.2",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "eslint": "^5.4.0",
+    "eslint-plugin-react": "^7.11.1",
     "json-loader": "^0.5.7"
   }
 }
