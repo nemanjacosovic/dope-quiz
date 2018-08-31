@@ -77,12 +77,12 @@ class App extends Component {
 		if (activeQuestionIndex < questionsCount - 1) {
 			// Go to next question by incrementing activeQuestion
 			this.setState( state => ({
-				activeQuestionIndex: this.state.activeQuestionIndex + 1
+				activeQuestionIndex: state.activeQuestionIndex + 1
 			}))
 		} else {
 			// No more questions
 			this.setState( state => ({
-				haveQuestions: false
+				haveQuestions: !state.haveQuestions
 			}))
 
 			// Who won?
@@ -110,16 +110,16 @@ class App extends Component {
 
 		// Increment vote to a specific vote type
 		this.setState( state => ({
-			...this.state,
+			...state,
 			result: {
-				...this.state.result,
+				...state.result,
 				[voteTypeName]: {
-					...this.state.result[voteTypeName],
-					votes: this.state.result[voteTypeName].votes + 1
+					...state.result[voteTypeName],
+					votes: state.result[voteTypeName].votes + 1
 				}
 			}
 		}),
-		newState => {
+		() => {
 			this.getWinner()
 		})
 	}
@@ -224,9 +224,9 @@ class App extends Component {
 
 		}
 		// Set winner text
-		this.setState( (state) => ( {
-			winnerIs: winner,
-			winnerDescription: winnerDescription
+		this.setState( state => ( {
+			winnerIs: state.winner,
+			winnerDescription: state.winnerDescription
 		} ) )
 	}
 
