@@ -84,23 +84,20 @@
         padding: 0;
         margin: 0 0 15px 0;
         border-radius: 3px;
-        background: #f5f5f5;
+        background: #fafafa;
         padding: 10px 10px 0 10px;
       }
         ul.result-description li h3 {
           margin: 0;
+          color: #4d4d4d;
           cursor: pointer;
+          font-size: 20px;
           font-weight: 500;
-          font-weight: 20px;
-          padding: 5px 0 5px 10px;
           letter-spacing: 0.02em;
+          padding: 10px 0 10px 10px;
           text-transform: uppercase;
-          border-bottom: 2px solid #f5f5f5;
-          transition: border 400ms ease-in-out;
+          border-bottom: 1px solid #ffffff;
         }
-          ul.result-description li.active h3 {
-            border-bottom: 2px solid #ffffff;
-          }
           ul.result-description li h3 i {
             float: right;
             color: #999;
@@ -112,27 +109,21 @@
             }
         ul.result-description li p {
           margin: 0;
-          opacity: 0;
           padding: 0;
-          max-height: 0;
-          font-size: 14px;
-          overflow: hidden;
-          font-weight: 300;
-          line-height: 1.8em;
+          font-size: 15px;
+          line-height: 1.9em;
           font-style: italic;
-          padding: 5px 15px 0 15px;
-          transition: max-height 400ms ease-in-out, opacity 400ms ease-in-out, padding 400ms ease-in-out;
+          padding: 10px 15px 20px 15px;
+          font-family: 'Merriweather', serif;
         }
-          ul.result-description li.active p {
-            opacity: 1;
-            max-height: 1984px;
-            padding: 10px 15px 20px 15px;
-          }
     /* Play again */
     .result-repeat {
       margin-top: 10px;
       text-align: center;
     }
+      .result-repeat button i {
+        padding: 0 10px 0 0;
+      }
     /* TODO Share result */
   /* Result */
 

@@ -175,6 +175,9 @@ class App extends Component {
 			} else if ( sortWinners[0][1][0] === sortWinners[1][1][0] && sortWinners[0][1][0] === sortWinners[2][1][0] ) {
 				// 1st, 2nd and 3rd have the same number of votes
 				winner = `${sortWinners[0][0]}, ${sortWinners[1][0]} i ${sortWinners[2][0]}`
+				this.setState({
+					cheater: false
+				})
 				winnerDescription.push(
 					{
 						title: sortWinners[0][0],
@@ -192,6 +195,9 @@ class App extends Component {
 			} else if ( sortWinners[0][1][0] === sortWinners[1][1][0] ) {
 				// 1st and 2nd have the same number of votes
 				winner = `${sortWinners[0][0]} i ${sortWinners[1][0]}`
+				this.setState({
+					cheater: false
+				})
 				winnerDescription.push(
 					{
 						title: sortWinners[0][0],
@@ -205,6 +211,9 @@ class App extends Component {
 			} else {
 				// There can be only one!
 				winner = `${sortWinners[0][0]}`
+				this.setState({
+					cheater: false
+				})
 				winnerDescription.push(
 					{
 						title: sortWinners[0][0],
@@ -219,30 +228,6 @@ class App extends Component {
 			winnerIs: winner,
 			winnerDescription: winnerDescription
 		} ) )
-	}
-
-	// Toggle description height
-	toggleResult = (event) => {
-		let clickedElement = event.target
-
-		if (clickedElement.tagName != 'H3') {
-			console.log('fired')
-			clickedElement = clickedElement.parentElement
-		}
-
-		const parent = clickedElement.parentElement.classList
-
-		let isParentActive = parent.contains('active')
-
-		let icon = clickedElement.querySelector('i')
-
-		if (!isParentActive) {
-			parent.add('active')
-			icon.textContent = 'remove'
-		} else {
-			parent.remove('active')
-			icon.textContent = 'add'
-		}
 	}
 
 	// Restart the quiz
@@ -309,7 +294,7 @@ class App extends Component {
 
 								return (
 									<li key={ title }>
-										<h3 onClick={ this.toggleResult }>{ title }<i className='material-icons'>add</i></h3>
+										<h3>{ title }</h3>
 										<p>{ text }</p>
 									</li>
 								)
@@ -317,7 +302,7 @@ class App extends Component {
 						}
 					</ul>
 					<div className='result-repeat'>
-						<Button color='secondary' onClick={ this.playAgain }>Ponovo?</Button>
+						<Button color='secondary' onClick={ this.playAgain }><i className='material-icons'>replay</i>Probaj ispočetka</Button>
 					</div>
 				</main>
 		}
