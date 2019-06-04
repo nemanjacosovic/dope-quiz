@@ -133,6 +133,7 @@ class App extends Component {
 		let sortWinners = []
 
 		// Promote winner
+		// eslint-disable-next-line
 		let winner = ''
 
 		// Winenr description
@@ -276,8 +277,8 @@ class App extends Component {
 					<div className='question-counter'>{ questionNumberCurrent } / { questionNumberSum }</div>
 					<h2 className='question-text'>{ this.state.data.questions[activeQuestionIndex].question }</h2>
 					<div className='question-answer'>
-						<Button variant='raised' color='primary' size='large' value='Yes' onClick={ this.castVote }>Da</Button>
-						<Button variant='raised' color='secondary' size='large' value='No' onClick={ this.castVote }>Ne</Button>
+						<Button variant='contained' color='primary' size='large' value='Yes' onClick={ this.castVote }>Da</Button>
+						<Button variant='contained' color='secondary' size='large' value='No' onClick={ this.castVote }>Ne</Button>
 					</div>
 				</main>
 		} else {

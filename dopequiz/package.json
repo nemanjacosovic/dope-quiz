@@ -4,10 +4,10 @@
   "private": true,
   "homepage": "http://auxburgo.com/dope",
   "dependencies": {
-    "@material-ui/core": "^3.6.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts": "^2.1.1"
+    "@material-ui/core": "^4.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,8 +16,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "eslint": "^5.6.0",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
     "json-loader": "^0.5.7"
   },
   "browserslist": [
